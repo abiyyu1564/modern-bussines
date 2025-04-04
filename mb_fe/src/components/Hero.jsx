@@ -18,10 +18,9 @@ const Hero = () => {
         </div>
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-          We boost the frowth for{" "}
+          We boost the growth for{" "}
           <span className="text-blue-600 relative inline-block">
             Startup to Fortune 500{" "}
-            <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span>
           </span>
           {""} Companies
           <span className="inline-block ml-2 animate-pulse">⏰</span>

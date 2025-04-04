@@ -5,6 +5,12 @@ import "./App.css";
 import Hero from "./components/Hero";
 import LogoAnimation from "./components/LogoAnimation";
 import PurposeSection from "./components/PurposeSection";
+import Features from "./components/Features";
+import Schedule from "./components/Schedule";
+import MonitorSection from "./components/MonitorSection";
+import Pricing from "./components/Pricing";
+import Service from "./components/Service";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +23,12 @@ function App() {
         <Hero />
         <LogoAnimation />
         <PurposeSection />
+        <Features />
+        <Schedule />
+        <MonitorSection />
+        <Pricing />
+        <Service />
+        <Testimonials />
       </div>
     </main>
   );
