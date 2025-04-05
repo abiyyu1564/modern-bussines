@@ -11,6 +11,8 @@ import MonitorSection from "./components/MonitorSection";
 import Pricing from "./components/Pricing";
 import Service from "./components/Service";
 import Testimonials from "./components/Testimonials";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,6 +31,8 @@ function App() {
         <Pricing />
         <Service />
         <Testimonials />
+        <Newsletter />
+        <Footer />
       </div>
     </main>
   );

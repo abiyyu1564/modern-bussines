@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "../App.css";
+
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
@@ -47,7 +47,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-16 px-4 max-w-7xl mx-auto">
+    <section id="testimonial" className="py-16 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold md:text-4xl mb-4">
           What our happy clients say
